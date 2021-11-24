@@ -1,0 +1,103 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding {
+    padding: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin {
+    margin: 30px;
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+  .border {
+      border: 5px solid black;    
+  }
+  .super-mario {
+    width: 200px;
+    top: 300px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 565px;
+    left: 90px;
+    z-index: 2;
+  }
+  
+  .baloon {
+     width: 300px;
+     position: absolute;
+     left: 300px;
+     top: 350px;
+     z-index: 3;
+  }
+  
+  .speach {
+    position: absolute;
+    font-size: 25px;
+    top: 400px;
+    left: 320px;
+    z-index: 4;
+  }
+  
+  .bowser {
+    width: 200px;
+    position: absolute;
+    left: 600px;
+    top: 500px;
+  }
+
+  h1{
+    text-align: center;
+
+  }
+  .h1exer{
+    text-align: center;
+    padding-bottom: 500px ;
+
+  }
+
+  li{
+      list-style: none;
+  }
+
+  li:hover{
+    background-color: blue;
+    color: white;
+}
+  li:active{
+      font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  div:nth-of-type(1) {
+    background-color: red;
+  }
+    div:nth-of-type(2){
+    color: black;}
+    div:nth-of-type(3){
+    color: pink;}
+    div:nth-of-type(4){
+    color: brown;
+}
+
+h3:nth-of-type(1n){
+    font-style: italic;
+}
