@@ -1,1 +1,30 @@
+nav span{
+  margin-left: 50px;
+}
 
+main{
+    text-align: center;
+
+}
+img{
+    border-radius: 10% 10%;
+}
+aside{
+    background-image: url(https://www.mafiadomergulho.com.br/wp-content/uploads/2021/04/fundo-do-mar-site-copy.jpg);
+    background-position: center;
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 165px;
+    right: 60px;
+    border-radius: 10% 10%;
+}
+
+aside a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 50px;
+}
