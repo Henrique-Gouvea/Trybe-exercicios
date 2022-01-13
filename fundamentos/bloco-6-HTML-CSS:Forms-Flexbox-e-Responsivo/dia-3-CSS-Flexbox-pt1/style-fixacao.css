@@ -1,0 +1,232 @@
+.flex-container {
+    display: flex;
+}
+
+h1{
+  text-align: center;
+}
+
+.box {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 50px;
+    height: 60px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 3%;
+  }
+
+  .box-container {
+    background-color: #0fa36b;
+    display: flex;
+    /* ADICIONE AQUI SEUS TESTES */
+    flex-direction: row;
+  }
+
+  .box-container1 {
+    background-color: #0fa36b;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .box-container2 {
+    background-color: #0fa36b;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-container3 {
+    background-color: #0fa36b;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .box-container4{
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    /* QUEBRA DE PAGINA POR PADRAO ELE NAO QUEBRA PASSA POR CIMA DA DIV */
+  }
+
+  /* FLEX-FLOW = ROW WRAP JUNCAO DE FLEX-WRAP E FLEX-DIRECTION */
+
+  .box1 {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 50px;
+    height: 60px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 20%;
+  }
+
+  .box-container5{
+    background-color: #0fa36b;
+    display: flex;
+  }
+
+  .box-container6{
+    background-color: #0fa36b;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-container7{
+    background-color: #0fa36b;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .box-container8{
+    background-color: #0fa36b;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .box-container9{
+    background-color: #0fa36b;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .box-container10{
+    background-color: #0fa36b;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box-container11{
+    background-color: #0fa36b;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .box-one {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 70px;
+    min-height: 80px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .box-two {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 50px;
+    min-height: 60px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .box-three {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 30px;
+    margin: 10px 5px;
+    min-height: 50px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .box-container12 {
+    background-color: #0fa36b;
+    display: flex;
+    /* ADICIONE AQUI SEUS TESTES */
+  }
+
+  .box-container13 {
+    background-color: #0fa36b;
+    display: flex;
+    align-items: center;
+  }
+
+  .box-container14 {
+    background-color: #0fa36b;
+    display: flex;
+    align-items: flex-start;
+  }
+  .box-container15 {
+    background-color: #0fa36b;
+    display: flex;
+    align-items: flex-end;
+  }
+  .box-container16 {
+    background-color: #0fa36b;
+    display: flex;
+    align-items: stretch;
+  }
+  .box-container17 {
+    background-color: #0fa36b;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .box3 {
+    color: #9069EF;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid #232525;
+    font-size: 50px;
+    min-height: 60px;
+    margin: 10px 5px;
+    text-align: center;
+    width: 30%;
+  }
+
+  .box-containerA {
+    /* ADICIONE AQUI SEUS TESTES */
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .box-containerB {
+    align-content: center;
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+
+  .box-containerC {
+    align-content: flex-start;
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .box-containerD {
+    align-content: flex-end;
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .box-containerE {
+    align-content: stretch;
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .box-containerF {
+    align-content: space-around;
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+  .box-containerG {
+    align-content: space-between;
+    background-color: #0fa36b;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
