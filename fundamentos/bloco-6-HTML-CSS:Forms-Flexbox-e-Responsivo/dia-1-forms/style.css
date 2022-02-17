@@ -1,0 +1,44 @@
+body{
+    margin-left: 40%;
+    width: 400px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+input{
+    width: 250px;
+}
+
+#data-inicio{
+    width: 252px;
+}
+
+button{
+    width: 260px;
+    margin-top: 10px;
+}
+
+h2{
+    margin-left: 10%;
+}
+
+#tipo1, #tipo2{
+    width: 10px;
+}
+
+#input-estado{
+    width: 259px;
+}
+
+#dados{
+    position: fixed;
+    width: 350px;
+    top: 20%;
+    left: 5%;
+    padding-left: 20px;
+    background-color: antiquewhite;
+}
