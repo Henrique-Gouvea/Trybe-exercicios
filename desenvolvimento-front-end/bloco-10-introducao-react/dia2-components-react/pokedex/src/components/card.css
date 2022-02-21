@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid black;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+p {
+    text-align: left;
+    padding: 1px;
+}
+
+a {
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5px;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.cardDad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Electric {
+    background-image: url(../images/eletric.jpeg);
+}
+
+.Fire {
+    background-image: url(../images/fire.png);
+}
+
+.Bug {
+    background-image: url(../images/bug.jpg);
+}
